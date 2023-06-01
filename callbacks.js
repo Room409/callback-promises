@@ -13,6 +13,8 @@ function petsNames(callback = () => { }) {
     callback(petName)
 }
 
+//callback hell
+
 getPets(function (pets) {
     console.log('pets', pets)
 
